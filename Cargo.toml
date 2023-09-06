@@ -1,0 +1,18 @@
+[package]
+name = "df2301q"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+keywords = ["embedded", "voice regonition", "dfrobot", "df2301q", "gravity"]
+license-file = "LICENSE"
+description = "DF2301Q Gravity Offline Voice Recognition Module Rust Driver"
+repository = "https://github.com/Cosmic-Bee/df2301q.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nb = "0.1"
+embedded-hal = "0.2.7"
+
+[dev-dependencies]
+embedded-hal-mock = "0.7"
